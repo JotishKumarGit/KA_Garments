@@ -3,7 +3,7 @@ import './Homepage.css';
 
 const Card = () => {
     return (
-        <div className="container">
+        <div className="container py-5">
             <div className="row justify-content-center">
                 {[1, 2, 3].map((_, index) => (
                     <div key={index} className="col-12 col-sm-6 col-md-4 mb-4 d-flex align-items-stretch">

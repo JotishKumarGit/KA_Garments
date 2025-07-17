@@ -39,7 +39,7 @@ const Slider = () => {
             <div className="carousel-inner ">
                 {slides.map((slide, index) => (
                     <div className={`carousel-item ${index === 0 ? "active" : ""}`} key={slide.id}>
-                        <img height={'600px'} src={slide.img} className="d-block w-100" alt={slide.title} />
+                        <img height={'300px'} src={slide.img} className="d-block w-100" alt={slide.title} />
                         <div className="carousel-caption d-none d-md-block custom-caption">
                             <h5>{slide.title}</h5>
                             <p>{slide.description}</p>

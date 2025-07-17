@@ -1,10 +1,12 @@
-import React from 'react'
+import React from 'react';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 import Slider from '../components/Slider/Slider';
 import Card from './Card';
 import About from './About';
 import Product from './Product';
 import Service from './Service';
 import Testimonial from './Testimonial';
+import Contact from './Contact';
 
 function Home() {
   return (
@@ -17,6 +19,7 @@ function Home() {
           <Product />
           <Service />
           <Testimonial />
+          <Contact />
         </div>
       </div>
     </>

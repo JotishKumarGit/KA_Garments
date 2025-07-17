@@ -29,3 +29,11 @@
 .nav-links .nav-link:hover {
   color: #ffcc00;
 }
+
+
+/* This is for footer */
+footer a:hover {
+  color: #f8c146 !important;
+  /* gold hover effect */
+  text-decoration: underline;
+}
