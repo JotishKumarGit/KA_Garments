@@ -1,0 +1,38 @@
+.unique-carousel {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.custom-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  /* Adjust if needed */
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Optional: gives background for readability */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.custom-indicators button {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin: 0 5px;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.custom-indicators .active {
+  background-color: #007bff;
+}
+
+
+
+
+
+

@@ -1,0 +1,31 @@
+/* Upper navbar styles */
+.upper-navbar {
+  background-color: #333;
+  font-size: 0.9rem;
+}
+
+/* Main navbar */
+.main-navbar {
+  background: linear-gradient(135deg, #0c4b1a, #b446b4);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo-text {
+  color: #fff;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.logo-text:hover {
+  color: #ffcc00;
+}
+
+.nav-links .nav-link {
+  color: #fff;
+  margin-left: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.nav-links .nav-link:hover {
+  color: #ffcc00;
+}
