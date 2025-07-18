@@ -7,6 +7,7 @@ import Product from './Product';
 import Service from './Service';
 import Testimonial from './Testimonial';
 import Contact from './Contact';
+import Blog from './Blog';
 
 function Home() {
   return (
@@ -18,6 +19,7 @@ function Home() {
           <About />
           <Product />
           <Service />
+          <Blog />
           <Testimonial />
           <Contact />
         </div>
