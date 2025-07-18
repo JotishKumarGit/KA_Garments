@@ -30,7 +30,8 @@ const Testimonial = () => {
 
     return (
         <div className="container py-5" id="testimonials">
-            <h2 className="text-center mb-5">What Our Clients Say</h2>
+            <h2 className="text-center mb-2">What Our Clients Say</h2>
+            <p className="para-p text-muted justify-content-center text-center align-items-center">Hear from our valued partners across the leggings supply chain — from trusted suppliers and global buyers to innovative manufacturers — who rely on our seamless service and product quality.</p>
             <div className="row g-4">
                 {testimonials.map((t, index) => (
                     <div className="col-md-4" key={index} data-aos="fade-up" data-aos-delay={index * 200}>

@@ -8,6 +8,9 @@ import Home from './pages/Home';
 import Navbar from './components/Headers/Navbar';
 import Footer from './components/Headers/Footer';
 import About_us from './pages/MorePro/About_us';
+import Services from './pages/MorePro/Services';
+import Contacts from './pages/MorePro/Contacts';
+import Products from './pages/MorePro/Products';
 
 
 function App() {
@@ -22,9 +25,9 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About_us />} />
-        {/* <Route path='/services' element={<Service />} />
-        <Route path='/products' element={<Product />} />
-        <Route path='/contact' element={<Contact />} /> */}
+        <Route path='/services' element={<Services />} />
+        <Route path='/products' element={<Products />} />
+        <Route path='/contact' element={<Contacts />} />
       </Routes>
       <Footer />
     </BrowserRouter>

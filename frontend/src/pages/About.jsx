@@ -14,7 +14,9 @@ const About = () => {
       {/* Title Section */}
       <div className="text-center mb-5" data-aos="fade-up">
         <h2 className="fw-bold">About Us</h2>
-        <p className="text-muted">Discover our story, mission, and the passion behind everything we do.</p>
+        <p className="text-muted para-p">
+          At the heart of our company lies a deep commitment to innovation and excellence. Our journey began with a simple idea — to create meaningful solutions that make a real difference in people's lives. We believe that every challenge is an opportunity to grow, and every success is a step toward a better future.
+        </p>
       </div>
 
       {/* Content Section */}
@@ -34,7 +36,12 @@ const About = () => {
           <p>
             From web development to product strategy, we work closely with our partners to turn ideas into impactful results.
           </p>
-          <button className="btn btn-primary mt-3">Learn More</button>
+          <ul>
+            <li>We Are Supplier</li>
+            <li>We Are Exporter</li>
+            <li>We Are Manufacturer</li>
+          </ul>
+          <button className="btn btn-primary mt-3"><a href="/contact" className='text-light text-decoration-none'>Learn More</a></button>
         </div>
       </div>
     </div>

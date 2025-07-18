@@ -32,7 +32,7 @@ const Service = () => {
     <div className="container py-5">
       <div className="text-center mb-5" data-aos="fade-down">
         <h2 className="fw-bold">Our Services</h2>
-        <p className="text-muted">What we offer to help you grow</p>
+        <p className="text-muted para-p">At SHREE KA GARMETS, we specialize in providing end-to-end solutions for the leggings industry, connecting suppliers, buyers, and manufacturers with premium products and efficient service. Whether you’re sourcing raw materials, purchasing ready-made leggings, or looking to manufacture customized designs, we’ve got you covered.</p>
       </div>
 
       <div className="row g-4">

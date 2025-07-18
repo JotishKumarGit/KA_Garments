@@ -32,7 +32,7 @@ const Footer = () => {
             <p><i className="bi bi-geo-alt-fill me-2"></i>193F ST-2 , UTHUKULI ROAD , NEAR REGISTER OFFICE , KUNNATHUR ,TAMIL NADU , INDIA</p>
 
             {/* Social Icons */}
-            <div className="social-icons mt-3"> 
+            <div className="social-icons mt-3">
               <a href="#" title="Facebook"><i className="bi bi-facebook"></i></a>
               <a href="#" title="Instagram"><i className="bi bi-instagram"></i></a>
               <a href="#" title="LinkedIn"><i className="bi bi-linkedin"></i></a>
@@ -45,6 +45,9 @@ const Footer = () => {
 
         <div className="text-center">
           <small>&copy; {new Date().getFullYear()} Shree KA Garments. All rights reserved.</small>
+        </div>
+        <div className="text-center">
+          <small>&copy; {new Date().getFullYear()} Designed By <a href="https://trade4export.com/">Trader4Export</a></small>
         </div>
       </div>
     </footer>

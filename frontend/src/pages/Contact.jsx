@@ -29,24 +29,16 @@ const Contact = () => {
   return (
     <>
       <div className='container-fluid'>
-        {/* For background image */}
-        <div className="background-image-contact d-flex align-items-center justify-content-center text-white text-center">
-          <div className="overlay-content-contact p-4 rounded">
-            <h2 className="display-4 fw-bold">Contact Us</h2>
-            <div className="lead">Let me know if you'd like a version tailored for a specific industry (e.g., e-commerce, real estate, healthcare, etc.) or platform (website, email, social media).</div>
-          </div>
-        </div>
-
         <div className="container shadow-lg p-5 justify-content-center rounded" data-aos="fade-up">
-          <h2 className="text-center mb-5">Contacṭ Us</h2>
+          <h2 className="text-center mb-3">Contacṭ Us</h2>
+          <p className='text-muted text-center para-p'>We’re here to help you find the perfect leggings solutions for your business. Whether you’re a supplier, buyer, or manufacturer, our team is ready to assist you with inquiries, orders, or custom requests.</p>
           <div className="row g-4">
             {/* Left Side: Map */}
             <div className="col-md-6 mt-5">
               <div className="shadow rounded overflow-hidden">
-                <iframe title="Google Map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.5081395609856!2d-122.4206799846819!3d37.77492977975954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7e1c5e35d95d%3A0x8201df9ed2ed5c3d!2sSan%20Francisco!5e0!3m2!1sen!2sus!4v1629648504213!5m2!1sen!2sus" width="100%" height="100%" style={{ border: 0, minHeight: '400px' }} allowFullScreen="" loading="lazy"></iframe>
+                <iframe title="Google Map" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d125211.47140690152!2d77.27883656249998!3d11.271811599999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s193F%20ST-2%20%2C%20UTHUKULI%20ROAD%20%2C%20NEAR%20REGISTER%20OFFICE%20%2C%20KUNNATHUR%20%2CTAMIL%20NADU%20%2C%20INDIA!5e0!3m2!1sen!2sin!4v1752830850123!5m2!1sen!2sin" height="100%" width="100%" style={{ border: 0, minHeight: '400px' }} allowFullScreen="" loading="lazy"></iframe>
               </div>
             </div>
-
             {/* Right Side: Contact Form */}
             <div className="col-md-6">
               <div className="card p-4 shadow-lg">
